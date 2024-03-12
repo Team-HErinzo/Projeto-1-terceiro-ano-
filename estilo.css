@@ -20,6 +20,7 @@
 
 .conteúdo-principal{
     display: flex;
+    flex-direction: column;
     justify-content: column;
     align-items: center;
 }
