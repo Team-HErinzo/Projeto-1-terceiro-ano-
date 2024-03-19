@@ -13,7 +13,7 @@
 
 :root{
 
- -cor-de-fundo: #010401
+ -cor-de-fundo: #1bc41b
  --verde: #6FFF57
 
 }
@@ -30,5 +30,5 @@
 }
 
 .conteúdo-principal span{
-    color: var(--verde);
+    color: var(-cor-de-fundo);
 }
