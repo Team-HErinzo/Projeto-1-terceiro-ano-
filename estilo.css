@@ -28,3 +28,7 @@
     margin: 0 auto;
 
 }
+
+.conteúdo-principal span{
+    color: var(--branco);
+}
