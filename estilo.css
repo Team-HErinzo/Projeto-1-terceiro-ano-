@@ -21,6 +21,6 @@
 .conteúdo-principal{
     display: flex;
     flex-direction: column;
-    justify-content: column;
+    justify-content: center;
     align-items: center;
 }
