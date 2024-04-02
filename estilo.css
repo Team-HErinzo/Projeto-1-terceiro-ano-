@@ -13,7 +13,7 @@
 
 :root{
 
- -cor-de-fundo: #1bc41b;
+ --cor-de-fundo: #1bc41b;
  --verde:  #6FFF57;
  --letra-fundo: #1C56EA;
 
@@ -33,11 +33,19 @@
 }
 
 .conteúdo-principal span{
-    color: var(-cor-de-fundo);
+    color: var(--cor-de-fundo);
 }
 
 .botao{
     font-size: 18px;
     padding: 1em;
-    color: var(-cor-de-fundo);
+    color: var(--cor-de-fundo);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    border-bottom: 4px;
+    border-left: 2px;
+    border-right: 2px;
+    border-top: none;
 }
