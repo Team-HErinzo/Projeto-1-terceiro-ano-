@@ -39,7 +39,7 @@
 .botao{
     font-size: 18px;
     padding: 1em;
-    color: var(--cor-de-fundo);
+    color: var(--letra-fundo);
     display: flex;
     justify-content: center;
     align-items: center;
