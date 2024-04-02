@@ -49,3 +49,9 @@
     border-right: 2px;
     border-top: none;
 }
+
+.principal-botoes{
+
+    display: flex;
+
+}
