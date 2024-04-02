@@ -16,7 +16,7 @@
  --cor-de-fundo: #1bc41b;
  --verde:  #6FFF57;
  --letra-fundo: #1C56EA;
-
+ --branco: #FFFFFF;
 
 
 }
@@ -29,6 +29,12 @@
     max-width: 1200px;
     width: 100%;
     margin: 0 auto;
+
+}
+
+.texto1{
+
+color: var(--branco);
 
 }
 
