@@ -7,7 +7,7 @@
     font-family: "Chakra Petch", sans-serif;
     font-weight: 500;
     font-size: normal;
-
+    background-color: var(--preto) ;
 }
 
 
@@ -17,7 +17,7 @@
  --verde:  #6FFF57;
  --letra-fundo: #1C56EA;
  --branco: #FFFFFF;
-
+ --preto: #000000;
 
 }
 
