@@ -73,6 +73,15 @@ color: var(--branco);
 }
 
 
+.ativo{
+    
+background-color: aqua;
+border-bottom: 4px solid var(--preto);
+}
+
+
+
+
 
 @media screen and (min-width:768px ) {
     .principal-botoes{
