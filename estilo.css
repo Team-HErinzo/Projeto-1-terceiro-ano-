@@ -75,8 +75,9 @@ color: var(--branco);
 
 .ativo{
     
-background-color: aqua;
-border-bottom: 4px solid var(--preto);
+    background-color: aqua;
+    border-bottom: 4px solid var(--preto);
+
 }
 
 
