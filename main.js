@@ -1,3 +1,3 @@
 
-const botoes = document.querySelectorAll(".botao")
-console.log(".principal-botoes")
+const botoes = document.querySelectorAll(".principal-botoes")
+console.log(".botoes")
