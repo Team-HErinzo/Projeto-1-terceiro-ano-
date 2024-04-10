@@ -1,6 +1,5 @@
 
-const botoes = document.querySelectorAll(".principal-botoes")
-console.log(".botao")
+const botoes = document.querySelectorAll(".botao")
 
 
 for(let i = 0; i<botoes.length; i++)[
