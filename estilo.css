@@ -80,8 +80,13 @@ color: var(--preto);
 
 }
 
+.abas-textos{
 
+    background-color: gray;
+    border-radius: 0 0 40px 40px;
+    padding: 40px;
 
+}
 
 
 @media screen and (min-width:768px ) {
@@ -91,10 +96,3 @@ color: var(--preto);
     }
 }
 
-.abas-textos{
-
-    background-color: gray;
-    border-radius: 0 0 40px 40px;
-
-
-}
