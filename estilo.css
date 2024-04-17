@@ -90,3 +90,11 @@ color: var(--preto);
        
     }
 }
+
+.abas-textos{
+
+    background-color: var(--cor-de-fundo);
+    border-radius: 0 0 40px 40px;
+
+
+}
