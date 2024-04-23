@@ -11,4 +11,4 @@ for(let i = 0; i<botoes.length; i++){
 	}
 }
 
-const conteudo = document.querySelectorAll(".abas-textos")
+const conteudo = document.querySelectorAll(".aba-conteudo")
