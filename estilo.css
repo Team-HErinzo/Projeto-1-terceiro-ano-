@@ -87,6 +87,11 @@ color: var(--preto);
     padding: 40px;
 }
 
+.aba-conteudo.ativo{
+    
+    display: block;
+}
+
 .aba-conteudo{
 
     text-align: center;
