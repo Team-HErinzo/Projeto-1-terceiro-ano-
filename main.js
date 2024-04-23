@@ -12,3 +12,12 @@ for(let i = 0; i<botoes.length; i++){
 }
 
 const conteudo = document.querySelectorAll(".aba-conteudo")
+
+for(let i = 0; i<conteudo.length; i++){
+	conteudo[i].onclick = function(){
+		for (let j = 0;j<conteudo.length; j++){
+			conteudo[j].classList.remove('ativo')
+}
+		conteudo[i].classList.add('ativo')
+	}
+}
