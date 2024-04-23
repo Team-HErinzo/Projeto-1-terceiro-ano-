@@ -73,7 +73,7 @@ color: var(--preto);
 }
 
 
-.ativo{
+.botao.ativo{
     
     background-color: aqua;
     border-bottom: 4px solid var(--preto);
