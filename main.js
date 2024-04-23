@@ -1,6 +1,6 @@
 
 const botoes = document.querySelectorAll(".botao")
-const texto  = document.querySelectorAll(".aba-conteudo)
+const texto  = document.querySelectorAll(".aba-conteudo")
 
 
 for(let i = 0; i<botoes.length; i++){
