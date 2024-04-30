@@ -1,7 +1,6 @@
 
 const botoes = document.querySelectorAll(".botao")
 const texto  = document.querySelectorAll(".aba-conteudo")
-const contadores = document.querySelectorAll(".contador")
 
 for(let i = 0; i<botoes.length; i++){
 	botoes[i].onclick = function(){
@@ -14,4 +13,6 @@ for(let i = 0; i<botoes.length; i++){
 	}
 }
 
+const contadores = document.querySelectorAll(".contador")
 
+contadores[0].textContent = "Contagem regressiva"
