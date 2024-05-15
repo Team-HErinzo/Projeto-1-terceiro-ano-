@@ -15,9 +15,15 @@ for(let i = 0; i<botoes.length; i++){
 
 const contadores = document.querySelectorAll(".contador")
 const tempoObjetivo1 = new Date("2024-10-05T00:00:00");
+const tempoObjetivo2 = new Date("2024-10-05T00:00:00");
+const tempoObjetivo3 = new Date("2024-10-05T00:00:00");
+const tempoObjetivo4 = new Date("2024-10-05T00:00:00");
 let tempoAtual = new Date()
 
 contadores[0].textContent = (tempoObjetivo1 - tempoAtual)/1000/60/60/24
+contadores[1].textContent = (tempoObjetivo2 - tempoAtual)/1000/60/60/24
+contadores[2].textContent = (tempoObjetivo3 - tempoAtual)/1000/60/60/24
+contadores[3].textContent = (tempoObjetivo4 - tempoAtual)/1000/60/60/24
 
 function calculaTempo(tempoObjetivo1){
 
