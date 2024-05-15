@@ -20,15 +20,28 @@ const tempoObjetivo3 = new Date("2024-10-05T00:00:00");
 const tempoObjetivo4 = new Date("2024-10-05T00:00:00");
 let tempoAtual = new Date()
 
-contadores[0].textContent = (tempoObjetivo1 - tempoAtual)/1000/60/60/24
-contadores[1].textContent = (tempoObjetivo2 - tempoAtual)/1000/60/60/24
-contadores[2].textContent = (tempoObjetivo3 - tempoAtual)/1000/60/60/24
-contadores[3].textContent = (tempoObjetivo4 - tempoAtual)/1000/60/60/24
+const tempos = [tempoObjetivo1, tempoObjetivo2, tempoObjetivo3, tempoObjetivo4]
 
-function calculaTempo(tempoObjetivo){
+function atualizaCronometro(){
+
+	for (let = 0;i<contadores.length;)++{
+
+		contadores[i].textContent = calculaTempo(tempos[i]);
+
+	}
+
+}
+
+
+
+
+contadores[0].textContent = (tempoObjetivo1 - tempoAtual)/1000/60/60/24
+
+
+function calculaTempo(tempoObjetivo1){
 
 let tempoAtual = new Date();
-let tempoFinal = tempoObjetivo - tempoAtual;
+let tempoFinal = tempoObjetivo1 - tempoAtual;
 let segundos = Math.floor(tempoFinal/1000);
 let minutos = Math.floor(segundos/60);
 let horas = Math.floor(minutos/60);
