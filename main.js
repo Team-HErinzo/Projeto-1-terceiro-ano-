@@ -29,7 +29,7 @@ function atualizaCronometro(){
 }
 
 atualizaCronometro();
-
+setInterval(atualizaCronometro, 1000);
 
 contadores[0].textContent = (tempoObjetivo1 - tempoAtual)/1000/60/60/24
 
